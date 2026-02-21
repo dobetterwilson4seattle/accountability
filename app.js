@@ -102,8 +102,8 @@ function renderTable(promises){
       <td><strong>${escapeHtml(p.promise)}</strong></td>
       <td>${escapeHtml(p.category || '')}</td>
       <td><span class="badge ${p.status}">${statusLabel(p.status)}</span></td>
-      <td>${escapeHtml(p.deadline || '')}</td>
-      <td>${escapeHtml(p.last_update || '')}</td>
+      <td>${escapeHtml(p.target_deadline || p.deadline || '')}</td>
+      <td>${escapeHtml(p.last_update || p.announced_date|| '')}</td>
       <td>${p.source_url ? `<a href="${p.source_url}" target="_blank" rel="noopener">link</a>` : ''}</td>
     </tr>
   `).join('');
