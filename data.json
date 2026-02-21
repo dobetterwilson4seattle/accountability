@@ -11,7 +11,7 @@
       "target_value": 4000,
       "current_value": 0,
       "target_deadline": "2029-12-31",
-      "status": "pending",
+      "status": "in_progress",
       "source_url": "https://www.wilsonforseattle.com/homelessness"
     },
     {
@@ -56,7 +56,7 @@
       "target_value": 1000000000,
       "current_value": 0,
       "target_deadline": null,
-      "status": "pending",
+      "status": "unknown",
       "source_url": "https://www.wilsonforseattle.com/housing"
     },
     {
@@ -65,9 +65,9 @@
       "category": "Transportation",
       "metric": "STBD renewal placed on ballot and approved",
       "target_value": 1,
-      "current_value": 0,
+      "current_value": 0.5,
       "target_deadline": "2026-12-31",
-      "status": "pending",
+      "status": "in_progress",
       "source_url": "https://www.wilsonforseattle.com/transportation"
     },
     {
@@ -76,9 +76,9 @@
       "category": "Affordability",
       "metric": "Fresh Bucks benefit increase implemented and waitlist cleared",
       "target_value": 1,
-      "current_value": 0,
+      "current_value": 1,
       "target_deadline": null,
-      "status": "in_progress",
+      "status": "completed by former mayor harrell",
       "source_url": "https://wilson.seattle.gov/2026/02/17/mayor-wilsons-2026-state-of-the-city-address/"
     },
     {
@@ -89,7 +89,7 @@
       "target_value": 0,
       "current_value": null,
       "target_deadline": null,
-      "status": "pending",
+      "status": "unknown",
       "source_url": "ADD_SOURCE_URL_HERE"
     },
     {
@@ -100,7 +100,7 @@
       "target_value": 1,
       "current_value": 0,
       "target_deadline": null,
-      "status": "pending",
+      "status": "unknown",
       "source_url": "ADD_SOURCE_URL_HERE"
     }
   ]
