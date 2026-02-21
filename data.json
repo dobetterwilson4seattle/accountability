@@ -1,0 +1,41 @@
+{
+  "subject": "Mayor Katie Wilson",
+  "promises": [
+    {
+      "id": "P-001",
+      "promise": "Publish a 100-day plan with measurable targets",
+      "category": "Governance",
+      "status": "completed",
+      "deadline": "2026-03-01",
+      "last_update": "2026-02-15",
+      "source_url": "https://example.com/source"
+    },
+    {
+      "id": "P-002",
+      "promise": "Increase shelter capacity by 250 beds",
+      "category": "Housing",
+      "status": "in_progress",
+      "deadline": "2026-12-31",
+      "last_update": "2026-02-10",
+      "source_url": "https://example.com/source"
+    },
+    {
+      "id": "P-003",
+      "promise": "Cut permit timelines by 20%",
+      "category": "Permitting",
+      "status": "pending",
+      "deadline": "2026-10-01",
+      "last_update": "2026-02-05",
+      "source_url": "https://example.com/source"
+    },
+    {
+      "id": "P-004",
+      "promise": "No new taxes on working families",
+      "category": "Budget",
+      "status": "broken",
+      "deadline": "2026-06-30",
+      "last_update": "2026-02-18",
+      "source_url": "https://example.com/source"
+    }
+  ]
+}
