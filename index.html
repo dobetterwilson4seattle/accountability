@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Mayor Promise Tracker</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+  <header class="hero">
+    <div class="brand">
+      <div class="logo">▮▮▮</div>
+      <div class="brand-text">
+        <div class="kicker">ACCOUNTABILITY TRACKER</div>
+        <h1>Mayor Promise Tracker</h1>
+        <p>Tracking commitments, measuring progress, and posting receipts.</p>
+      </div>
+    </div>
+  </header>
+
+  <main class="container">
+
+    <section class="cards" id="summary-cards">
+      <!-- filled by JS -->
+    </section>
+
+    <section class="panel">
+      <div class="panel-title">Accountability Score</div>
+      <div class="score-row">
+        <div class="score-gauge">
+          <div class="gauge" aria-label="Accountability score gauge">
+            <div class="gauge-inner">
+              <div class="gauge-value" id="scoreValue">0%</div>
+            </div>
+          </div>
+        </div>
+        <div class="score-meta">
+          <div class="pill" id="scoreLabel">—</div>
+          <div class="score-desc" id="scoreDesc">—</div>
+        </div>
+      </div>
+    </section>
+
+    <section class="panel">
+      <div class="panel-title">Promises</div>
+
+      <div class="controls">
+        <input id="searchInput" class="search" placeholder="Search promises…" />
+        <select id="categorySelect" class="select">
+          <option value="all">All categories</option>
+        </select>
+        <select id="statusSelect" class="select">
+          <option value="all">All statuses</option>
+          <option value="in_progress">In progress</option>
+          <option value="completed">Completed</option>
+          <option value="broken">Broken</option>
+          <option value="stalled">Stalled</option>
+          <option value="pending">Pending</option>
+        </select>
+      </div>
+
+      <div class="table-wrap">
+        <table class="table">
+          <thead>
+            <tr>
+              <th>Promise</th>
+              <th>Category</th>
+              <th>Status</th>
+              <th>Deadline</th>
+              <th>Last update</th>
+              <th>Source</th>
+            </tr>
+          </thead>
+          <tbody id="promiseTbody">
+            <!-- filled by JS -->
+          </tbody>
+        </table>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div>Built on public sources. This is an opinionated tracker. Verify via links.</div>
+    </footer>
+
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
