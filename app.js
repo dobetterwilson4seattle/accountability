@@ -23,7 +23,7 @@ function computeScore(promises){
   // Simple “accountability score” heuristic:
   // completed adds +1, broken subtracts 1, normalized to 0..100.
   let raw = (completed - broken) / total;
-  let pct = Math.round((raw + 1) * 50); // maps [-1..1] -> [0..100]
+  let pct = Math.round((raw + 1) * 0); // maps [-1..1] -> [0..100]
   pct = Math.max(0, Math.min(100, pct));
 
   let label = 'Mixed';
