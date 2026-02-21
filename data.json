@@ -10,7 +10,7 @@
       "metric": "Number of new emergency housing/shelter units opened",
       "target_value": 4000,
       "current_value": 0,
-      "target_deadline": "2029-12-31",
+      "deadline": "2029-12-31",
       "status": "in_progress",
       "source_url": "https://www.wilsonforseattle.com/homelessness"
     },
@@ -21,7 +21,7 @@
       "metric": "Number of new shelter/housing units added in 2026",
       "target_value": 1000,
       "current_value": 0,
-      "target_deadline": "2026-12-31",
+      "deadline": "2026-12-31",
       "status": "in_progress",
       "source_url": "https://wilson.seattle.gov/2026/02/17/mayor-wilsons-2026-state-of-the-city-address/"
     },
@@ -33,7 +33,7 @@
       "target_value": 500,
       "current_value": 0,
       "unit_type": ["tiny_home", "rv_space", "apartment"],
-      "target_deadline": "2026-06-15",
+      "deadline": "2026-06-15",
       "status": "in_progress",
       "source_url": "https://www.politico.com/news/2026/01/31/world-cup-seattle-housing-00749371"
     },
@@ -44,7 +44,7 @@
       "metric": "Completion of Denny Way bus lane project",
       "target_value": 1,
       "current_value": 0,
-      "target_deadline": null,
+      "deadline": null,
       "status": "in_progress",
       "source_url": "https://wilson.seattle.gov/2026/01/15/mayor-wilson-announces-executive-orders-to-accelerate-shelter-and-improve-transit/"
     },
@@ -55,7 +55,7 @@
       "metric": "Affordable housing bond introduced and passed",
       "target_value": 1000000000,
       "current_value": 0,
-      "target_deadline": null,
+      "deadline": null,
       "status": "unknown",
       "source_url": "https://www.wilsonforseattle.com/housing"
     },
@@ -66,7 +66,7 @@
       "metric": "STBD renewal placed on ballot and approved",
       "target_value": 1,
       "current_value": 0.5,
-      "target_deadline": "2026-12-31",
+      "deadline": "2026-12-31",
       "status": "in_progress",
       "source_url": "https://www.wilsonforseattle.com/transportation"
     },
@@ -77,7 +77,7 @@
       "metric": "Fresh Bucks benefit increase implemented and waitlist cleared",
       "target_value": 1,
       "current_value": 1,
-      "target_deadline": null,
+      "deadline": null,
       "status": "completed by former mayor harrell",
       "source_url": "https://wilson.seattle.gov/2026/02/17/mayor-wilsons-2026-state-of-the-city-address/"
     },
@@ -88,7 +88,7 @@
       "metric": "Number of surveillance cameras removed and no new cameras installed",
       "target_value": 0,
       "current_value": null,
-      "target_deadline": null,
+      "deadline": null,
       "status": "unknown",
       "source_url": "ADD_SOURCE_URL_HERE"
     },
@@ -99,7 +99,7 @@
       "metric": "Universal free K-8 summer camp program operational",
       "target_value": 1,
       "current_value": 0,
-      "target_deadline": null,
+      "deadline": null,
       "status": "unknown",
       "source_url": "ADD_SOURCE_URL_HERE"
     }
