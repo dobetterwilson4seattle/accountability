@@ -44,7 +44,7 @@
       "metric": "Completion of Denny Way bus lane project",
       "target_value": 1,
       "current_value": 0,
-      "deadline": "2026-04-31",
+      "deadline": "2026-04-30",
       "status": "in_progress",
       "source_url": "https://wilson.seattle.gov/2026/01/15/mayor-wilson-announces-executive-orders-to-accelerate-shelter-and-improve-transit/"
     },
@@ -86,10 +86,10 @@
       "promise": "Remove existing police surveillance cameras and halt further expansion of city surveillance systems.",
       "category": "Public Safety",
       "metric": "Number of surveillance cameras removed and no new cameras installed",
-      "target_value": 0,
+      "target_value": 1,
       "current_value": 0,
       "deadline": "2026-01-01",
-      "status": "unknown",
+      "status": "failed",
       "source_url": "ADD_SOURCE_URL_HERE"
     },
     {
