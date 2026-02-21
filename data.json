@@ -65,7 +65,7 @@
       "category": "Transportation",
       "metric": "STBD renewal placed on ballot and approved",
       "target_value": 1,
-      "current_value": 0.5,
+      "current_value": 0,
       "deadline": "2026-12-31",
       "status": "in_progress",
       "source_url": "https://www.wilsonforseattle.com/transportation"
@@ -76,7 +76,7 @@
       "category": "Affordability",
       "metric": "Fresh Bucks benefit increase implemented and waitlist cleared",
       "target_value": 1,
-      "current_value": 1,
+      "current_value": 0,
       "deadline": null,
       "status": "completed by former mayor harrell",
       "source_url": "https://wilson.seattle.gov/2026/02/17/mayor-wilsons-2026-state-of-the-city-address/"
